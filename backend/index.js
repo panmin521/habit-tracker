@@ -9,6 +9,7 @@ app.use(express.json());
 
 mongoose.connect(process.env.MONGO_URL || process.env.MONGO_URI);
 
+app.get('/', (req, res) => res.json({ status: 'ok' }));
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/habits', require('./routes/habits'));
 
