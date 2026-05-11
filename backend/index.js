@@ -12,4 +12,4 @@ mongoose.connect(process.env.MONGO_URL || process.env.MONGO_URI);
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/habits', require('./routes/habits'));
 
-app.listen(process.env.PORT || 3000, () => console.log('Server running'));
+app.listen(process.env.PORT || 3000, '0.0.0.0', () => console.log('Server running'));
