@@ -1,0 +1,19 @@
+{
+  "pages": [
+    { "path": "pages/login/login", "style": { "navigationBarTitleText": "登录" } },
+    { "path": "pages/index/index", "style": { "navigationBarTitleText": "我的习惯" } },
+    { "path": "pages/add/add", "style": { "navigationBarTitleText": "添加习惯" } }
+  ],
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#6C63FF",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#6C63FF",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "习惯", "iconPath": "static/tab_habit.png", "selectedIconPath": "static/tab_habit_active.png" }
+    ]
+  }
+}

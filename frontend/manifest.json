@@ -1,0 +1,13 @@
+{
+  "name": "habit-tracker",
+  "appid": "wxe33fd0ac7b442b5a",
+  "description": "习惯打卡小程序",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "wxe33fd0ac7b442b5a",
+    "setting": { "urlCheck": false },
+    "usingComponents": true
+  }
+}
